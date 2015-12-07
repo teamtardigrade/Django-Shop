@@ -4,6 +4,12 @@
 
 - Python 2.7
 - Django 1.9
+- Django REST framework (and dependencies)
+
+## Optional
+
+-Ipython (console customization)
+
 
 ## How to use it?
 
