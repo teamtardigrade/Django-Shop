@@ -7,6 +7,9 @@ class Category(models.Model):
 	name = models.CharField(max_length=30)
 	active = models.BooleanField(default=True)
 
+	class Meta:
+		verbose_name_plural = "categories"
+
 
 	def __unicode__(self):
 
